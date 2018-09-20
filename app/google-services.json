@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "577623616059",
+    "firebase_url": "https://gharkokhana-6c88c.firebaseio.com",
+    "project_id": "gharkokhana-6c88c",
+    "storage_bucket": "gharkokhana-6c88c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577623616059:android:d6f2e0c46cf081d4",
+        "android_client_info": {
+          "package_name": "com.kthdvs.gharkokhana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577623616059-78rfb6s2m5m2kfg06f0ggblb4c93mpcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kthdvs.gharkokhana",
+            "certificate_hash": "2c8742f3f59a8e78dde583497d6952fb7b8c04af"
+          }
+        },
+        {
+          "client_id": "577623616059-dvk81us6aetmmhqrie2uqpefat2ivf4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGhC7IITxFgOc8mxwK47RlEsZk8Bv6kmo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577623616059-dvk81us6aetmmhqrie2uqpefat2ivf4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

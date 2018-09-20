@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kthdvs.gharkokhana.NotificationActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get your notifications here!!"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textview"
+        android:layout_alignStart="@+id/textview"
+        android:layout_below="@+id/textview"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="114dp"
+        android:text="Confirm Request" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnConfirm"
+        android:layout_alignStart="@+id/btnConfirm"
+        android:layout_below="@+id/btnConfirm"
+        android:layout_marginTop="58dp"
+        android:text="Delete Request" />
+
+</RelativeLayout>

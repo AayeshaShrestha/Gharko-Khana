@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kthdvs.gharkokhana.EditPostActivity">
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/newImg"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editshape"
+        android:padding="5dp"
+        android:id="@+id/newDish"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Name of Dish"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editshape"
+        android:padding="5dp"
+        android:id="@+id/newDescr"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Description"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editshape"
+        android:padding="5dp"
+        android:id="@+id/newlocation"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Location"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/newOrder"
+        android:inputType="numberDecimal"
+        android:background="@drawable/editshape"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:hint="No. of Orders"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editshape"
+        android:layout_marginTop="10dp"
+        android:id="@+id/newPrice"
+        android:padding="5dp"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Price"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editshape"
+        android:padding="5dp"
+        android:id="@+id/newDelivery"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Delivery"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Save Changes"
+        android:padding="10dp"
+        android:background="#3B5998"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btnUpdate"/>
+
+
+
+</LinearLayout>
+</ScrollView>

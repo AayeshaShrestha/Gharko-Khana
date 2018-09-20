@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.kthdvs.gharkokhana.ChefActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select any picture related to your food."
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Else the post will not be posted."
+        android:textSize="15dp"
+        android:layout_marginLeft="80dp"/>
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/select_img"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editshape"
+        android:padding="5dp"
+        android:id="@+id/dishName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:imeOptions="actionNext"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Name of Dish"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editshape"
+        android:padding="5dp"
+        android:id="@+id/desc"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:hint="Description"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:ems="10"
+        android:background="@drawable/editshape"
+        android:id="@+id/place"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"
+        android:hint="Location"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/orders"
+        android:background="@drawable/editshape"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext"
+        android:hint="No. of Orders"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editshape"
+        android:layout_marginTop="10dp"
+        android:id="@+id/price"
+        android:padding="5dp"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Price"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Options"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Rgroup"
+        android:layout_marginLeft="20dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Yes"
+            android:id="@+id/deliverYes"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No"
+            android:id="@+id/deliverNo"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:padding="10dp"
+        android:background="#3B5998"
+        android:textColor="#FFFFFF"
+        android:id="@+id/submit"/>
+
+
+
+</LinearLayout>
+</ScrollView>

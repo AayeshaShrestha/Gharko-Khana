@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kthdvs.gharkokhana.CitizencpActivity">
+
+    <ImageButton
+        android:id="@+id/select_img"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:paddingTop="10dp" />
+
+    <Button
+        android:id="@+id/img_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="  Upload your citizenship/id photo  "
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnToPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/img_btn"
+        android:layout_alignRight="@+id/img_btn"
+        android:layout_below="@+id/img_btn"
+        android:layout_marginTop="29dp"
+        android:background="#3B5998"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kthdvs.gharkokhana.MainActivity">
+
+    <item
+        android:id="@+id/noti"
+        android:title="Notifications"
+        android:icon="@mipmap/ic_notifications_active_white_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Profile"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/cook"
+        android:icon="@mipmap/ic_local_dining_white_24dp"
+        android:title="Add food"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+
+
+</menu>

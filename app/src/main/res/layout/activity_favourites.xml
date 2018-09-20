@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kthdvs.gharkokhana.FavouritesActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="Enter 5 foods you love the most."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/fav1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="1."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fav2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fav1"
+        android:layout_alignRight="@+id/fav1"
+        android:layout_below="@+id/fav1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="2."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fav3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fav2"
+        android:layout_alignStart="@+id/fav2"
+        android:layout_below="@+id/fav2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:ems="10"
+        android:hint="3."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fav4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fav3"
+        android:layout_alignStart="@+id/fav3"
+        android:layout_below="@+id/fav3"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="4."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fav5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fav4"
+        android:layout_alignStart="@+id/fav3"
+        android:layout_below="@+id/fav4"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="5."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnToPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="5dp"
+        android:background="#3B5998"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>

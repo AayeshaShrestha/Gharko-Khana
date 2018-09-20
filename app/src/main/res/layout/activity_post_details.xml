@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="30dp"
+    android:orientation="vertical"
+    tools:context="com.kthdvs.gharkokhana.PostDetailsActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/FoodImage"/>
+
+    <TextView
+        android:id="@+id/NameOfDish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/FoodImage"
+        android:layout_marginTop="15dp"
+        android:text="Dish Name" />
+
+    <TextView
+        android:id="@+id/DishDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/NameOfDish"
+        android:layout_marginTop="26dp"
+        android:text="Description" />
+
+    <TextView
+        android:id="@+id/DishPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/DishDescription"
+        android:layout_marginTop="28dp"
+        android:text="Price" />
+
+    <TextView
+        android:id="@+id/DishOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/DishPrice"
+        android:layout_marginTop="25dp"
+        android:text="No of orders" />
+
+    <TextView
+        android:id="@+id/DishDelivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/DishOrders"
+        android:layout_marginTop="32dp"
+        android:text="Delivery" />
+
+    <TextView
+        android:id="@+id/NameOfChef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/DishOrders"
+        android:layout_toRightOf="@+id/DishOrders"
+        android:text="Chef:" />
+
+    <TextView
+        android:id="@+id/chefLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/DishOrders"
+        android:layout_toRightOf="@+id/DishOrders"
+        android:text="Location:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Order your Food" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="60dp"
+        android:text="Edit Post" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
